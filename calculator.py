@@ -5,9 +5,7 @@ def simple_calculator():
     except ValueError:
         print("You have entered invalid input. Please enter numbers.")
         return
-
     operation = input("Enter the operation (+, -, *, /): ")
-
     if operation == '+':
         result = num1 + num2
         print("Addition of 2 numbers is: \n"f"{num1} + {num2} = {result}")
